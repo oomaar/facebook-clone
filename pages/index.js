@@ -6,11 +6,14 @@ const Home = ({ session }) => {
   if (!session) return <Login />;
 
   return (
-    <div>
+    <div className="h-screen bg-gray-100 overflow-hidden">
       <HeadTag title="Facebook 2.0 Clone" />
 
       <Header />
-      <Sidebar />
+
+      <main className="flex">
+        <Sidebar />
+      </main>
     </div>
   );
 };
