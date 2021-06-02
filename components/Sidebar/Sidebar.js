@@ -16,6 +16,7 @@ const Sidebar = () => {
     const [session, loading] = useSession();
 
     return (
+        // <div className="flex flex-col justify-center p-2 mt-5 w-screen">
         <div className="p-2 mt-5 max-w-[600px] xl:min-w-[300px]">
             <SidebarRow src={session.user.image} title={session.user.name} />
             <SidebarRow Icon={UsersIcon} title="Friends" />
@@ -30,3 +31,5 @@ const Sidebar = () => {
 };
 
 export default Sidebar;
+
+// max-w-[600px] xl:min-w-[300px]
