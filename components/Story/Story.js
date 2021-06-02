@@ -1,3 +1,5 @@
+import { StoryCard } from "..";
+
 const stories = [
     {
         name: "Omar Hassan",
@@ -25,6 +27,7 @@ const Story = () => {
     return (
         <div className="flex justify-center space-x-3 mx-auto">
             story
+            <StoryCard />
         </div>
     );
 };
