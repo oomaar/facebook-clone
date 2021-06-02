@@ -3,23 +3,23 @@ import { StoryCard } from "..";
 const stories = [
     {
         name: "Omar Hassan",
-        src: "",
-        profile: ""
+        src: "/story/Me.jpg",
+        profile: "/story/Me2.JPG"
     },
     {
         name: "Elon Musk",
-        src: "",
-        profile: ""
+        src: "/story/Elon Musk.jpg",
+        profile: "/story/Elon Musk2.jpg"
     },
     {
         name: "Mark Zuckerberg",
-        src: "",
-        profile: ""
+        src: "/story/Mark Zuckerberg.jpg",
+        profile: "/story/Mark Zuckerberg2.jpg"
     },
     {
         name: "Bill Gates",
-        src: "",
-        profle: ""
+        src: "/story/Bill Gates.jpg",
+        profle: "/story/Bill Gates2.jpg"
     }
 ];
 
@@ -27,7 +27,13 @@ const Story = () => {
     return (
         <div className="flex justify-center space-x-3 mx-auto">
             story
-            <StoryCard />
+            {stories.map(story => (
+                <StoryCard
+                    name={story.name}
+                    src={story.src}
+                    profile={story.profile}
+                />
+            ))}
         </div>
     );
 };
