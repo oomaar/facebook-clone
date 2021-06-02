@@ -19,7 +19,7 @@ const stories = [
     {
         name: "Bill Gates",
         src: "/story/Bill Gates.jpg",
-        profle: "/story/Bill Gates2.jpg"
+        profile: "/story/Bill Gates2.jpg"
     }
 ];
 
