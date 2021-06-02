@@ -1,7 +1,9 @@
+import { Story } from "..";
+
 const Feed = () => {
     return (
         <div>
-            Feed
+            <Story />
         </div>
     );
 };
