@@ -9,3 +9,4 @@ export { default as StoryCard } from "./StoryCard/StoryCard";
 export { default as InputBox } from "./InputBox/InputBox";
 export { default as Posts } from "./Posts/Posts";
 export { default as Post } from "./Post/Post";
+export { default as Widgets } from "./Widgets/Widgets";

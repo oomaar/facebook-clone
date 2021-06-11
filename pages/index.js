@@ -1,4 +1,4 @@
-import { Feed, Header, Login, Sidebar } from '../components';
+import { Feed, Header, Login, Sidebar, Widgets } from '../components';
 import HeadTag from '../global/HeadTag';
 import { getSession } from "next-auth/client";
 
@@ -14,6 +14,7 @@ const Home = ({ session }) => {
       <main className="flex">
         <Sidebar />
         <Feed />
+        <Widgets />
       </main>
     </div>
   );
