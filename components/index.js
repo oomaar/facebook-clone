@@ -7,3 +7,4 @@ export { default as Feed } from "./Feed/Feed";
 export { default as Story } from "./Story/Story";
 export { default as StoryCard } from "./StoryCard/StoryCard";
 export { default as InputBox } from "./InputBox/InputBox";
+export { default as Posts } from "./Posts/Posts";

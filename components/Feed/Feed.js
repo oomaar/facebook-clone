@@ -1,4 +1,4 @@
-import { InputBox, Story } from "..";
+import { InputBox, Posts, Story } from "..";
 
 const Feed = () => {
     return (
@@ -6,6 +6,7 @@ const Feed = () => {
             <div className="mx-auto max-w-md md:max-w-lg">
                 <Story />
                 <InputBox />
+                <Posts />
             </div>
         </div>
     );
